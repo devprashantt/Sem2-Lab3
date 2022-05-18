@@ -1,10 +1,10 @@
-rows = 5
-k = 0
-for i in range(1, rows + 1):
-    k = k+1 
-    for j in range(k, rows + 1):
-        if j <= i:
-            print(i, end=' ')
-        else:
-            print(j, end=' ')
+
+count = 0
+for i in range(1, 10):
+    count = i
+    for j in range(1, 10):
+        print(count,end=" ")
+        count += 1
+        if count > 9:
+            count = 1
     print()
