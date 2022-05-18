@@ -5,14 +5,13 @@ for i in range(0, rows):
     for j in range(0, k):
         print(end=" ")
     k = k - 2
-    
+
     for j in range(0, i + 1):
         print("* ", end="")
     print("")
 
 
-# Alternative Way
-
-rows = int(input("Number Of Rows"))
-for j in range(1, rows+1):
-    print("* " * j)
+def AlternativeWay():
+    z = int(input("Number Of Rows"))
+    for j in range(1, z+1):
+        print("* " * j)
